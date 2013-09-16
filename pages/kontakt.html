@@ -13,6 +13,25 @@
             <li><a href = "presentation.html">presentation</a></li>
             <li><a href = "kontakt.html">kontakt</a></li>
         </ul>
-
+        <h3>Kontaktformulär (påhittat)</h3>
+        <form id = "formulär" action = "http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method = "post">
+            <fieldset>
+                <legend>Kontaktinformation</legend>
+                <label for = "namn">Namn</label><input type="text" name="namn" id="namn"/>
+                <label for = "enamn">Efter Namn</label><input type="text" name="enamn" id="enamn"/>
+                <label for = "mail">E-Mail</label><input type="text" name="mail" id="mail"/>
+                <select name = "kön">
+                    <option value = "man" selected>Man</option>
+                    <option value = "kvinna" selected>Kvinna</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Favorit dryck</legend>
+                    <input type = "radio" name = "grupp1" value = "f"/>Fanta
+                    <input type = "radio" name = "grupp1" value = "c"/>Cola
+                    <input type = "radio" name = "grupp1" value = "ö"/>Öl
+            </fieldset>
+            <input type = "submit" value = "Skicka!"/>
+        </form>
     </body>
 </html>
