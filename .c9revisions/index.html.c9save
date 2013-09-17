@@ -16,3 +16,4 @@
 {"ts":1379334996918,"patch":[[{"diffs":[[0,"rad bild"],[1,"."],[0,"</h3>\n  "]],"start1":814,"start2":814,"length1":16,"length2":17}]],"length":1108,"saved":false}
 {"ts":1379335195019,"patch":[[{"diffs":[[0,"ny</a>.</p>\n"],[1,"        <video width=\"600\" height=\"300\" src=\"videos/trailer_400p.ogg\" controls>\n            <p>Din webbläsare stödjer ej <code>video</code>-taggen</p>\n        </video>\n        <p>Skrivet av Hampus 16/9-13</p>\n"],[0,"    </body>\n"]],"start1":1077,"start2":1077,"length1":24,"length2":233}]],"length":1317,"saved":false}
 {"ts":1379335292045,"patch":[[{"diffs":[[0,"     <h3"],[1," id = \"video\""],[0,">Video</"]],"start1":974,"start2":974,"length1":16,"length2":29}]],"length":1330,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1379358994932,"patch":[[{"diffs":[[0,"\n    <head>\n"],[1,"    "],[0,"    <meta ch"]],"start1":32,"start2":32,"length1":24,"length2":28}]],"length":1334,"saved":false}
