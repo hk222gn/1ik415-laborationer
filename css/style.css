@@ -16,7 +16,7 @@
 /* ///TOP/// */
 #top
 {
-    background-image: url('../pics/logga.png');
+    background-image: url('pics/logga.png');
     background-repeat: no-repeat;
     background-position: center top;
     text-align: center;
@@ -76,6 +76,11 @@
 {
     border-bottom: 1px solid black 
 }
+#content h3:before
+{
+    content: url('pics/flower.png');
+    background-repeat: no-repeat;
+}
 #content p
 {
     margin: 3px;
@@ -111,5 +116,4 @@ a:visited
     font-style: italic;
     text-align: right;
 }
-
 
