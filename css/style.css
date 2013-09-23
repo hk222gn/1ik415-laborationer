@@ -16,6 +16,9 @@
 /* ///TOP/// */
 #top
 {
+    background-image: url('../pics/logga.png');
+    background-repeat: no-repeat;
+    background-position: center top;
     text-align: center;
     height: 150px;
     background-color: #FFE373;
@@ -75,7 +78,16 @@
 }
 #content p
 {
+    margin: 3px;
     font-family: "Arial";
+}
+#content #blog
+{
+    font-family: "Times New Romans";
+}
+#content table
+{
+    margin: 3px;
 }
 /* ///FOOTER//// */
 #footer
@@ -99,4 +111,5 @@ a:visited
     font-style: italic;
     text-align: right;
 }
+
 
