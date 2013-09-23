@@ -1,3 +1,11 @@
+/*
+    FÄRGER.
+    top/foot: FFE373
+    body: FAEDDF
+    content: FDEBA3
+    navLI: 7FE394
+    
+*/
 #container
 {
     width: 1000px;
@@ -19,11 +27,42 @@
     margin-top: 10px;
     float: left;
 }
+#nav ul
+{
+    margin-left: -38px;
+}
 #nav li
 {
+    list-style-type: none;
     margin: 3px;
     background-color: #7FE394;
 }
+#nav a
+{
+    display: block;
+}
+#nav .active a
+{
+    background-color: #DDF89B;
+}
+#nav a:hover
+{
+    background-color: #C9D687;
+}
+
+#nav a:link 
+{
+    color:#FFFFFF;
+    text-decoration:none;
+    font-size: 17px;
+}
+
+#nav a:visited 
+{
+    color:#000000;
+    text-decoration:none;/*Fixa indikering, vilken länk man är inne på i #nav */
+}
+
 #content
 {
     border: 1px solid #000000;
@@ -42,3 +81,7 @@ body
 {
     background-color: #FAEDDF;
 }
+/*#nav li:hover {background: #CDF76F;}*/
+
+
+
