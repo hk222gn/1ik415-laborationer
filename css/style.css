@@ -86,9 +86,11 @@
     margin: 3px;
     font-family: "Arial";
 }
-#content #blog
+#content .blog
 {
     font-family: "Times New Romans";
+    font-style: italic;
+    text-align: right;
 }
 #content table
 {
@@ -111,9 +113,4 @@ a:visited
     color: blue;
 }
 /* ///SPECIALS/// */
-#blog
-{
-    font-style: italic;
-    text-align: right;
-}
 
