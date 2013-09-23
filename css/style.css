@@ -75,7 +75,7 @@
 }
 #content p
 {
-    
+    font-family: "Arial";
 }
 /* ///FOOTER//// */
 #footer
@@ -87,6 +87,11 @@
 body
 {
     background-color: #FAEDDF;
+}
+/* ///A/// */
+a:visited
+{
+    color: blue;
 }
 /* ///SPECIALS/// */
 #blog
