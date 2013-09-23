@@ -74,7 +74,8 @@
 }
 #content h3, #content h2 
 {
-    border-bottom: 1px solid black 
+    border-bottom: 1px solid black;
+    margin: 3px;
 }
 #content h3:before
 {
@@ -102,6 +103,10 @@
     text-align: center;
     background-color: #FFE373;
 }
+#title
+{
+    margin: 6px;
+}
 /* ///BODY/// */
 body
 {
@@ -112,5 +117,8 @@ a:visited
 {
     color: blue;
 }
-/* ///SPECIALS/// */
-
+/* ///VIDEO/// */
+video
+{
+    margin: 3px;
+}
