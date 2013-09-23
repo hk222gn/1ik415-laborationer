@@ -9,9 +9,8 @@
 /* ///CONTAINER/// */
 #container
 {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
-    text-align: left;
 }
 /* ///TOP/// */
 #top
@@ -19,7 +18,6 @@
     background-image: url('pics/logga.png');
     background-repeat: no-repeat;
     background-position: center top;
-    text-align: center;
     height: 150px;
     background-color: #FFE373;
 }
@@ -70,7 +68,7 @@
 {
     margin-left: 155px;
     background-color: #FDEBA3;
-    
+    position: relative;
 }
 #content h3, #content h2 
 {
@@ -84,8 +82,8 @@
 }
 #content p
 {
-    margin: 3px;
     font-family: "Arial";
+    font-size: 12px;
 }
 #content .blog
 {
@@ -95,6 +93,11 @@
 }
 #content table
 {
+    margin: 3px;
+}
+.right
+{
+    float: right;
     margin: 3px;
 }
 /* ///FOOTER//// */
