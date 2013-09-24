@@ -1,11 +1,11 @@
 /*
     FÄRGER.
-    top/foot: FFE373
-    body: FAEDDF
-    content: FDEBA3
-    navLI: 7FE394
+    top/foot: #FFE373
+    body: #FAEDDF
+    content: #FDEBA3
+    navLI: #7FE394
     navActive:#DDF89B
-    navHover:C9D687
+    navHover:#C9D687
     
 */
 /* ///CONTAINER/// */
@@ -98,11 +98,21 @@
     font-style: italic;
     text-align: right;
 }
-#content tr, #content td
+#content table
+{
+    border-collapse: collapse;
+}
+#content tbody tr, #content td
 {
     margin: 3px;
     border: 3px solid;
     border-color: #F7CE2F;
+    background-color: #FAEDDF;
+}
+#content th
+{
+    border: none;
+    background-color: #FDEBA3;
 }
 /* ///FOOTER//// */
 #footer
