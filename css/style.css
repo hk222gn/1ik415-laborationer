@@ -18,7 +18,7 @@
     background-image: url('pics/logga.png');
     background-repeat: no-repeat;
     background-position: center top;
-    height: 150px;
+    height: 85px;
     background-color: #FFE373;
 }
 /* ///NAV/// */
@@ -113,6 +113,10 @@ body
     background-color: #FAEDDF;
 }
 /* ///A/// */
+a
+{
+    text-decoration: none;
+}
 a:visited
 {
     color: blue;
