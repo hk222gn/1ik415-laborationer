@@ -53,7 +53,7 @@
 
 #nav a:link 
 {
-    color:#FFFFFF;
+    color:#000000;
     text-decoration:none;
     font-size: 17px;
 }
@@ -91,14 +91,11 @@
     font-style: italic;
     text-align: right;
 }
-#content table
+#content tr, #content td
 {
     margin: 3px;
-}
-.right
-{
-    float: right;
-    margin: 3px;
+    border: 3px solid;
+    border-color: #F7CE2F;
 }
 /* ///FOOTER//// */
 #footer
@@ -123,5 +120,15 @@ a:visited
 /* ///VIDEO/// */
 video
 {
+    margin: 3px;
+}
+/* ///CLASSES/// */
+.clearfix
+{
+    clear: both;
+}
+.right
+{
+    float: right;
     margin: 3px;
 }
