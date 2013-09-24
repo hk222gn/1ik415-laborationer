@@ -4,6 +4,8 @@
     body: FAEDDF
     content: FDEBA3
     navLI: 7FE394
+    navActive:#DDF89B
+    navHover:C9D687
     
 */
 /* ///CONTAINER/// */
@@ -80,10 +82,15 @@
     content: url('pics/flower.png');
     background-repeat: no-repeat;
 }
+#content h4, #content h5, #content h6
+{
+    margin: 3px;
+}
 #content p
 {
     font-family: "Arial";
     font-size: 12px;
+    margin: 3px;
 }
 #content .blog
 {
