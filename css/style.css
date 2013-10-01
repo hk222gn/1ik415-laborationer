@@ -33,12 +33,14 @@
 #nav ul
 {
     margin-left: -38px;
+    display: block;
 }
 #nav li
 {
     list-style-type: none;
     margin: 3px;
     background-color: #7FE394;
+    text-align: center;
 }
 #nav a
 {
@@ -64,6 +66,20 @@
 {
     color:#000000;
     text-decoration:none;
+}
+#nav li a
+{
+    background-image: url('pics/sprite.png');
+    background-repeat: no-repeat;
+    height: 24px;
+}
+#nav li a.icon
+{
+    background-position: 0 0;
+}
+#nav li a:hover.icon
+{
+    background-position: 0 -48px;
 }
 /* ///CONTENT/// */
 #content
