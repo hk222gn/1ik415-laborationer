@@ -22,7 +22,7 @@
     background-position: center top;
     height: 85px;
     background-color: #FFE373;
-    -webkit-animation: myfirst 2s infinite;
+    -webkit-animation: myfirst 5s infinite alternate paused;
 }
 @-webkit-keyframes myfirst
 {
