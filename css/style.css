@@ -22,9 +22,9 @@
     background-position: center top;
     height: 85px;
     background-color: #FFE373;
-    -webkit-animation: myfirst 5s infinite alternate paused;
+    -webkit-animation: topAnim 5s infinite alternate paused;
 }
-@-webkit-keyframes myfirst
+@-webkit-keyframes topAnim
 {
 0%   {background: red;background-image: url('pics/logga.png');background-position: center top;}
 18%   {background: orange;background-image: url('pics/logga.png');background-position: left top;}
