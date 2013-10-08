@@ -152,16 +152,19 @@
     margin: 6px;
 }
 /* FORMULÄR */
+#form
+{
+    
+}
 #form .koninf
 {
-    width: 30%;
     text-align: left;
 }
 #form .koninf label
 {
     float: left;
     clear: left;
-    width: 250px;
+    width: 50px;
     text-align: left;
 }
 #form .koninf input
@@ -170,7 +173,6 @@
 }
 #form fieldset
 {
-    width: 400px; 
     padding: 20px 0px 20px 50px; 
     border: 3px solid;
     border-color: #F7CE2F;
@@ -184,10 +186,6 @@
 #form .koninf select
 {
     float: left;
-}
-#form .koninf
-{
-    
 }
 /* ///BODY/// */
 body

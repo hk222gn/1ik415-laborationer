@@ -7,7 +7,7 @@
         <link rel = "stylesheet" type = "text/css" media = "print" href = "../css/print.css" />
         <!-- MOBILE -->
         <meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
-        <link rel = "stylesheet" type = "text/css" media = "screen and (max-width:480px)" href = "css/mobile.css" />
+        <link rel = "stylesheet" type = "text/css" media = "screen and (max-width:480px)" href = "../css/mobile.css" />
         <title>Kontakt</title>
     </head>
     <body>
@@ -28,18 +28,18 @@
         <form id = "form" action = "http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method = "post">
             <div class = "koninf">
             <fieldset>
-                <legend>Kontaktinformation</legend>
+                <legend>Kontaktinf</legend>
                 <label for = "namn">Namn</label><input type="text" name="namn" id="namn"/>
-                <label for = "enamn">Efter Namn</label><input type="text" name="enamn" id="enamn"/>
-                <label for = "mail">E-Mail</label><input type="text" name="mail" id="mail"/>
+                <label for = "enamn">Efter-N</label><input type="text" name="enamn" id="enamn"/>
+                <label for = "mail">E-Mail</label><input type="email" name="mail" id="mail"/>
                 <select name = "kön">
                     <option value = "man" selected>Man</option>
                     <option value = "kvinna">Kvinna</option>
                 </select>
             </fieldset>
             </div>
-            <fieldset>
-                <legend>Favorit dryck</legend>
+            <fieldset id = "dryck">
+                <legend>Favo dryck</legend>
                     <input type = "radio" name = "grupp1" value = "f"/>Fanta
                     <input type = "radio" name = "grupp1" value = "c"/>Cola
                     <input type = "radio" name = "grupp1" value = "ö"/>Öl
