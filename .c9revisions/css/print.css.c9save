@@ -19,3 +19,4 @@
 {"ts":1380539920015,"patch":[[{"diffs":[[0,"\n}\r\n"],[-1,"#content a[href^=\"/\"]:after \r\n{ \r\n\tcontent: \" (http://www.alistapart.com\" attr(href) \") \"; \r\n}\r\n"],[0,"vide"]],"start1":546,"start2":546,"length1":104,"length2":8}]],"length":583,"saved":false}
 {"ts":1380539941139,"patch":[[{"diffs":[[0,"\n}\r\n"],[-1,"#content h1\r\n{\r\n    margin: 0 5%;\r\n}\r\n"],[0,"#con"]],"start1":398,"start2":398,"length1":46,"length2":8}]],"length":545,"saved":false}
 {"ts":1380540005515,"patch":[[{"diffs":[[0,"\n    display: none;\r\n}\r\n"],[1,"#footer\r\n{\r\n    display: none;\r\n}"]],"start1":521,"start2":521,"length1":24,"length2":57}]],"length":578,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1380634480943,"patch":[[{"diffs":[[0,"er\r\n{\r\n    display: none;\r\n}"],[1,"\r\n#top\r\n{\r\n    display: none;\r\n}"]],"start1":550,"start2":550,"length1":28,"length2":60}]],"length":610,"saved":false}

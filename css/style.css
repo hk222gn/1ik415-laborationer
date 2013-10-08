@@ -22,7 +22,7 @@
     background-position: center top;
     height: 85px;
     background-color: #FFE373;
-    -webkit-animation: topAnim 5s infinite alternate paused;
+    -webkit-animation: topAnim 1s infinite alternate paused;
 }
 @-webkit-keyframes topAnim
 {
