@@ -124,6 +124,7 @@
     font-family: "Times New Romans";
     font-style: italic;
     text-align: right;
+    clear: both;
 }
 #content table
 {
