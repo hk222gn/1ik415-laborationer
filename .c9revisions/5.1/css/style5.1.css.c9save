@@ -23,3 +23,4 @@
 {"ts":1381785217989,"patch":[[{"diffs":[[0,"talic;\r\n"],[1,"    margin-bottom: 5px;\r\n"],[0,"}\r\n"]],"start1":3841,"start2":3841,"length1":11,"length2":36}]],"length":3877,"saved":false}
 {"ts":1381785223107,"patch":[[{"diffs":[[0,"bottom: "],[-1,"5"],[1,"12"],[0,"px;\r\n}\r\n"]],"start1":3860,"start2":3860,"length1":17,"length2":18}]],"length":3878,"saved":false}
 {"ts":1381785243755,"patch":[[{"diffs":[[0,"x;\r\n}\r\n."],[-1,"italic"],[1,"comName"],[0,"\r\n{\r\n   "]],"start1":3805,"start2":3805,"length1":22,"length2":23}]],"length":3879,"saved":false}
+{"ts":1381785355101,"patch":[[{"diffs":[[0,"/// */\r\n"],[1,"header, main, article, nav, footer\r\n{\r\n    display: block;   \r\n}\r\n"],[0,"#contain"]],"start1":171,"start2":171,"length1":16,"length2":82}]],"length":3945,"saved":false}

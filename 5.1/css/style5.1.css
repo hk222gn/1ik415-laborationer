@@ -9,6 +9,10 @@
     
 */
 /* ///CONTAINER/// */
+header, main, article, nav, footer
+{
+    display: block;   
+}
 #container
 {
     max-width: 1000px;
