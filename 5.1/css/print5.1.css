@@ -1,0 +1,42 @@
+body { 
+	background: white; 
+	font-size: 12px; 
+	font-family : "Times New Roman", Times, serif;
+}
+#nav 
+{ 
+	display: none;
+}
+a:link, a:visited 
+{ 
+	color: #520; 
+	background: transparent; 
+	font-weight: bold; 
+	text-decoration: underline; 
+}
+#content { 
+	width: auto; 
+	margin: 0 5%; 
+	padding: 0; 
+	border: 0; 
+	float: none; 
+	color: black; 
+	background: transparent none; 
+}
+#content a:link:after, #content a:visited:after 
+{ 
+	content: " (" attr(href) ") "; 
+	font-size: 90%; 
+}
+video
+{
+    display: none;
+}
+#footer
+{
+    display: none;
+}
+#top
+{
+    display: none;
+}

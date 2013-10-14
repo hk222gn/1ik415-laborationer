@@ -1,0 +1,56 @@
+#nav ul
+{
+     width: 100%;
+     float: left;
+     margin: 0;
+     padding: 0;
+}
+#nav li
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#nav li a
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: none;
+}
+#nav 
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#content
+{
+    position: relative;
+    margin: 0;
+    width: 100%;
+    float: left;
+}
+#footer
+{
+    clear: both;
+}
+legend
+{
+    margin-left: -45px;
+}
+form
+{
+    max-width: 100%;
+}
+input
+{
+    max-width: 50%;
+}
+table
+{
+    margin: 0;
+}
+img,video
+{
+    max-width: 100%;
+}
