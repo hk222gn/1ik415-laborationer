@@ -230,3 +230,5 @@
 {"ts":1381841825216,"patch":[[{"diffs":[[0,"ly: "],[-1,"tangerin"],[1,"Devonshir"],[0,"e, s"]],"start1":734,"start2":734,"length1":16,"length2":17}]],"length":1103,"saved":false}
 {"ts":1381841898217,"patch":[[{"diffs":[[0,"family: "],[1,"'"],[0,"Devonshi"]],"start1":730,"start2":730,"length1":16,"length2":17},{"diffs":[[0,"hire"],[1,"'"],[0,", "],[-1,"serif"],[1,"cursive"],[0,";\n  "]],"start1":745,"start2":745,"length1":15,"length2":18}]],"length":1107,"saved":false}
 {"ts":1381842024645,"patch":[[{"diffs":[[0," a:hover"],[1,", #images a:focus"],[0,"\n{\n    -"]],"start1":475,"start2":475,"length1":16,"length2":33}]],"length":1124,"saved":false}
+{"ts":1381842487112,"patch":[[{"diffs":[[0," 5;\n"],[-1,"    font-size: 45px;\n"],[0,"}\na\n"]],"start1":658,"start2":658,"length1":29,"length2":8}]],"length":1103,"saved":false}
+{"ts":1381842531075,"patch":[[{"diffs":[[0,"dth: 260px;\n"],[1,"    height: 180px;\n"],[0,"    margin-t"]],"start1":75,"start2":75,"length1":24,"length2":43}]],"length":1122,"saved":false}
